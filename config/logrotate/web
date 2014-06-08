@@ -1,0 +1,10 @@
+/var/log/gg/*.log {
+  missingok
+  dateext
+  notifempty
+  sharedscripts
+  compress
+  copytruncate
+  daily
+  rotate 60
+}
